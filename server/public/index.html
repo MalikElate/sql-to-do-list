@@ -15,7 +15,7 @@
         <header class="navbar">
             <h1>Task Turtle</h1>
         </header> 
-        <div class="container">
+        <div id="task-container" class="container">
             <div class="row">
               <div class="col-sm">
                 <h2>Client</h2>
@@ -29,18 +29,24 @@
             </div> 
             <div class="row">
                 <div class="col-sm">
-                    <input id="client-input" placeholder="Add a client task"> 
+                    <input id="client-input" placeholder="Add a client task" maxlength="80"> 
                     <button id="client" class="add-btn btn-sm btn-light">+</button>
+                    <div>&nbsp;</div>
+                    <div><table id="client-col" class="table"></table></div>
                 </div>
                 <div class="col-sm">
-                    <input id="server-input" placeholder="Add a server task"> 
-                    <button id="server" class="add-btn btn-sm btn-light">+</button>
+                    <input id="server-input" placeholder="Add a server task" maxlength="80"> 
+                    <button id="server" class="add-btn btn-sm btn-light">+</button> 
+                    <div>&nbsp;</div>
+                    <div><table id="server-col" class="table"></table></div>
                 </div>
                 <div class="col-sm">
-                    <input id="database-input" placeholder="Add a database task"> 
+                    <input id="database-input" placeholder="Add a database task" maxlength="80"> 
                     <button id="database" class="add-btn btn-sm btn-light">+</button>
+                    <div>&nbsp;</div>
+                    <div><table id="database-col" class="table"></table></div>
                 </div>
-            </div>
+            </div> 
         </div>
     </body>
 </html>
