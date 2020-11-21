@@ -1,0 +1,27 @@
+body{ 
+    background-color: rgb(213, 211, 211); 
+} 
+
+header{ 
+    background-color: rgb(28, 134, 28); 
+    color: white; 
+}
+
+.container { 
+    background-color: white;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css ideas */
+/* when you hover over one of the to do items give it a shadow. Check google tasks  0 */
