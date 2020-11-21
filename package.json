@@ -2,7 +2,8 @@
   "dependencies": {
     "bootstrap": "^4.5.3",
     "express": "^4.17.1",
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "pg": "^8.5.1"
   },
   "name": "sql-to-do-list",
   "description": "[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md",
