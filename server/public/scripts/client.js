@@ -9,8 +9,11 @@ function readyNow() {
     $('#task-container').on('click', '.btn-delete', deleteTask);
     $('#task-container').on('click', '.task-td', updateStatus);
     // update tasks upon refresh 
-    getTasks();
+    getTasks(); 
+    swal("Welcome to Task Turtle!", `•add a task with + \n •delete a task with - \n •complete a task by clicking it`);
 }
+
+// get all the tasks and their status to display to the DOM
 function getTasks() {
     $.ajax({
         type: 'GET',
@@ -25,6 +28,8 @@ function getTasks() {
             alert('Something bad happened. Try again later');
         })
 }
+
+// add a task to the DOM and database
 function addTask() {
     // get which button was clicked 
     let listButtonClicked = $(this).attr('id');
@@ -53,8 +58,8 @@ function addTask() {
         alert('Something bad happened. Try again later');
     })
 }
-// alert user before they delete a file
-// delete a tasks 
+
+// alert user before they delete a file and after conformation delete a tasks 
 function deleteTask() {
     swal({
         title: "Are you sure?",
@@ -68,7 +73,6 @@ function deleteTask() {
             swal("Poof! Your task has been deleted!", {
                 icon: "success",
             });
-
             console.log(`deleting task...`);
             let taskId = $(this).closest('tr').data('id');
             $.ajax({
@@ -81,10 +85,11 @@ function deleteTask() {
                 alert('Something bad happened. Try again later');
             })
         } else {
-            swal("Your imaginary file is safe!");
+            swal("Your task is safe!");
         }
     });
 }
+
 function updateStatus() {
     let taskStatus = $(this).closest('tr').data('status');
     let taskId = $(this).closest('tr').data('id');
@@ -142,4 +147,5 @@ function renderTasks(allTasks) {
         }
     }
 }
+
 
