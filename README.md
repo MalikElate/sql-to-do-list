@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![REPO SIZE](https://img.shields.io/github/repo-size/MalikElate//sql-to-do-list.svg?style=flat-square)
-![TOP_LANGUAGE](https://img.shields.io/github/languages/top/MalikElate//sql-to-do-list.svg?style=flat-square)
-![FORKS](https://img.shields.io/github/forks/MalikElate//sql-to-do-list.svg?style=social)
+![REPO SIZE](https://img.shields.io/github/repo-size/MalikElate/sql-to-do-list.svg?style=flat-square)
+![TOP_LANGUAGE](https://img.shields.io/github/languages/top/MalikElate/sql-to-do-list.svg?style=flat-square)
+![FORKS](https://img.shields.io/github/forks/MalikElate/sql-to-do-list.svg?style=social)
 
 # Koala Holla
 
