@@ -7,7 +7,7 @@
 
 ## Description
 
-Our client, Koala Holla (1976 Llama Comma Drive, Walla Walla WA) is a non-profit dedicated to the ethical transitioning of koalas from the outdoors (whereupon they may be rained) to urban areas where roofs exist. Your team has been hired to build a web app to handle their terrarium residents.
+A task list for full stack web developers. Tasks are divided by there position in the stack and then organizes by completion status. Task turtle is the faster why to organize projects. 
 
 ## Screenshot
 --------
