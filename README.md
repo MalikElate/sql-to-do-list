@@ -3,7 +3,7 @@
 ![TOP_LANGUAGE](https://img.shields.io/github/languages/top/MalikElate/sql-to-do-list.svg?style=flat-square)
 ![FORKS](https://img.shields.io/github/forks/MalikElate/sql-to-do-list.svg?style=social)
 
-# Koala Holla
+# Task Turtle
 
 ## Description
 
