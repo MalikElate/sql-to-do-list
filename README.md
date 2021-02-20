@@ -14,7 +14,7 @@ Our client, Koala Holla (1976 Llama Comma Drive, Walla Walla WA) is a non-profit
 
 ![web page on startup](Screen-Shot.png)
 
-##Installation
+## Installation
 
 - gitHub repository files
 - node.js
@@ -31,7 +31,7 @@ Our client, Koala Holla (1976 Llama Comma Drive, Walla Walla WA) is a non-profit
 6. Create a SQL database named 'koala_database' 
 7. Use the query commands found in the database.sql file to build a koalas table
 
-##Built With
+## Built With
 
 - html
 - css
